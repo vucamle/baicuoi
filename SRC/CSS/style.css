@@ -6,3 +6,59 @@ html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-image:url(https://icdn.dantri.com.vn/thumb_w/770/2022/04/11/0-1649641671236.png) ;
+    Background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.header{
+    display: flex;
+    
+    
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.779);
+
+}
+.header__one{
+    display: flex;
+    
+    align-items: center;
+    height: 10rem;
+    color: yellow;
+    
+}
+p{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 1rem;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 90px;
+    background-color: yellow;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.header__two{
+    display: flex;
+    align-items: center;
+    margin-left: 10cm;
+    
+}
+.hi{ 
+    margin-right: 0.5rem;
+    width: 105px;
+
+
+}
+.header__img{
+    margin-right: 2rem;
+    margin-left: 3rem;
+}
