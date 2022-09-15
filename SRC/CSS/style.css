@@ -146,23 +146,35 @@ span{
 }
 .outer{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
-.outer img{
+
+.imege{
 
     height: 15rem;
-    width: 23rem;
+    width: 100%;
 }
 .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin-bottom: 4rem;
+    height: 150rem;
+    width: 120rem;
+    background-color: black;
 }
 .ender{
     display: flex;
     
     background-color: rgba(0, 0, 0, 0.922);
-    width: 100%;
+   
     height: 14rem;
     color: rgb(245, 245, 245);
     font-size: 15px;
@@ -175,4 +187,177 @@ span{
 .ender__two{
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+
+.button{
+    height: 4rem;
+    width: 9rem;
+    border-radius: 7px;
+   color: aliceblue;
+   border: 1px solid aliceblue;
+   background-color:rgba(0, 0, 0, 0.674) ;
+}
+.buttun{
+    height: 4rem;
+    width: 9rem;
+    border-radius: 7px;
+    color: red;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.674);
+}
+h4{
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h3{
+    color: yellow;
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.topmot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+
+}
+.tophai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+
+}
+.topba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.topbon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+}
+.vuer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+}
+.vumot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.vuhai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.vuba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.vubon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+}
+.ngoaner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.ngoanmot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.ngoanhai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.ngoanba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+    margin-right: 1rem;
+}
+.ngoanbon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 37rem;
+    width: 27rem;
+}
+.hinh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
