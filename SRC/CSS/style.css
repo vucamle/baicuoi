@@ -1,16 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
-}
-body{
-    background-image:url(http://bizweb.dktcdn.net/100/349/716/files/mau-banner-tet-trung-thu-vector-dep-17.jpg?v=1568104688819) ;
-    Background-repeat: no-repeat;
-    background-size: 100%;
-    
 }
 .header{
     display: flex;
@@ -47,9 +42,10 @@ span{
     margin-right: 2rem;
     
 }
-span :hover
+span:hover
 {
-    color: red;
+    color: white;
+    background-color: orangered;
 }
 .header__two{
     display: flex;
@@ -131,13 +127,16 @@ span :hover
 .hi{
     display: flex;
     align-items: center;
-   margin-left: 5rem;
+   
    margin-top: 5rem;
    padding: 5px black;
    background-color: black;
    margin-bottom: 8rem;
-   width: 107rem;
+   
    border: 2rem solid black;
+}
+.anh{
+    border-width: 2px;
 }
 .stron{
    
@@ -175,10 +174,10 @@ span :hover
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 3rem;
+   
     margin-bottom: 4rem;
     height: 125rem;
-    width: 120rem;
+    
     background-color: black;
     margin-top: 2rem;
 }
@@ -187,14 +186,19 @@ span :hover
     
     background-color: rgba(0, 0, 0, 0.922);
    
-    height: 14rem;
+    height: 13rem;
     color: rgb(245, 245, 245);
     font-size: 15px;
     font-weight: 700;
-    padding-top: 4rem;
+    
     padding-left: 7rem;
+    margin-top: 1.5rem;
     
-    
+}
+.cuoi{
+    background-color: rgba(0, 0, 0, 0.922);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 .ender__two{
     margin-left: 3rem;
@@ -239,7 +243,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 
 }
@@ -250,7 +254,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 
 }
@@ -261,7 +265,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .topbon{
@@ -271,7 +275,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
 }
 .vuer{
     display: flex;
@@ -289,7 +293,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .vuhai{
@@ -299,7 +303,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .vuba{
@@ -309,7 +313,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .vubon{
@@ -319,7 +323,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
 }
 .ngoaner{
     display: flex;
@@ -336,7 +340,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .ngoanhai{
@@ -346,7 +350,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .ngoanba{
@@ -356,7 +360,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
     margin-right: 1rem;
 }
 .ngoanbon{
@@ -366,7 +370,7 @@ h3{
     border: 1px solid gray;
     background-color: rgba(0, 0, 0, 0.674);
     height: 37rem;
-    width: 27rem;
+    width: 25rem;
 }
 .hinh{
     display: flex;
@@ -378,4 +382,10 @@ h3{
 a{
     text-decoration: none;
     color: inherit; 
+}
+.all{
+    background-image:url(http://bizweb.dktcdn.net/100/349/716/files/mau-banner-tet-trung-thu-vector-dep-17.jpg?v=1568104688819) ;
+    Background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
