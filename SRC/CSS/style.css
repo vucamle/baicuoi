@@ -140,7 +140,7 @@ span:hover {
     padding: 5px black;
     background-color: black;
     margin-bottom: 8rem;
-    width: 118rem;
+    width: 93.5%;
     border: 0.5rem solid grey;
 }
 
@@ -194,6 +194,7 @@ span:hover {
 
     background-color: rgba(0, 0, 0, 0.865);
     margin-top: 2rem;
+    width: 90%;
 }
 
 .ender {
