@@ -140,16 +140,16 @@ span:hover {
     padding: 5px black;
     background-color: black;
     margin-bottom: 8rem;
-    width: 93.5%;
+    width: 87%;
     border: 0.5rem solid grey;
 }
 
 .anh {
     border-width: 2px;
-    margin-left: 5rem;
+    
 }
 .footer{
-    margin-left: 4rem;
+    margin-left: 1rem;
 }
 
 .stron {
