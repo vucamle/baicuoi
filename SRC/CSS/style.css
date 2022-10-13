@@ -135,7 +135,7 @@ span:hover {
 .hi {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 5rem;
     padding: 5px black;
     background-color: black;
